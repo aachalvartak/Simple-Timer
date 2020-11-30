@@ -24,4 +24,5 @@
   
 ## Live Demo
   > Live Demo of the repo can be seen using following link
-  > 
+  > https://aachalv.github.io/Simple-Timer/
+  
