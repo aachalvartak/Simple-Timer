@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Timer Application</title>
+    
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!-- Timer -->
+    <div class="container">
+        <div class="timer-container">
+            <div class="box">
+                <h3 id="hourstxt">Hours</h2>
+                <h1 id="hour">00</h1>
+            </div> :
+            <div class="box">
+                <h3 id="minutestxt">Minutes</h2>
+                <h1 id="minute">00</h1>
+            </div> :
+            <div class="box">
+                <h3 id="secondstxt">Seconds</h2>
+                <h1 id="second">00</h1>
+            </div> :
+            <div class="box">
+                <h3 id="secondstxt">Milliseconds</h2>
+                <h1 id="millisecond">00</h1>
+            </div>
+        </div> 
+
+        <div>
+            <form name="form_main">
+                <div class="button-container"> 
+                    <div>
+                        <button type="button" name="start" class="btn btn1">start</button>
+                    </div>
+                    <div>
+                        <button type="button" name="pause" class="btn btn2">pause</button>                        
+                    </div>
+                    <div>
+                        <button type="button" name="reset" class="btn btn1">reset</button>                      
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+    <!-- Footer -->
+    <footer id="contact">
+        <p>email : aachal@gamil.com</p>
+        <p class="text">
+          © 2020 All Rights Reserved by  <span>Aachal Vartak</span>
+        </p>
+        <div class="social-links">
+          <a href="#" class="fa fa-twitter twitter"></a>|
+          <a href="#" class="fa fa-linkedin linkedin"></a>|
+          <a href="#" class="fa fa-facebook facebook"></a>|
+          <a href="#" class="fa fa-github github"></a>
+        </div>
+    </footer>
+</body>
+<script src="./src/timer.js"></script>
+<script src="./src/hamburger.js"></script>
+</html>
